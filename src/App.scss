@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #000;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%; 
+  // background: #000;
+  // height: 100vh;
+  a {
+    color: #000;
+  }
+  .navbar-nav {
+    a {
+      font-size:18px;
+    }
+  }
+  .card-img {
+    opacity: 0;
+  }
+  .hero {
+    h5, p {
+      color: #000;
+    }
+    h4 {
+      color: #fff;
+    }
+    h4 + p {
+      color: #fff;
+    }
+  }
+  .card-img-top {
+    object-fit: cover;
+  }
+  .prod__img {
+    object-fit:cover;
+  }
+}
